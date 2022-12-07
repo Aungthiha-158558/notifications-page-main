@@ -1,0 +1,25 @@
+.mobileView{
+    width: 650px;
+}
+@media (max-width:650px) {
+    .mobileView{
+        width: 375px;
+    }
+}
+.massage{
+    background-color: hsl(210, 60%, 98%)
+}
+.pointer{
+    cursor: pointer;
+    user-select: none;
+  }
+  .pointer:hover{
+    color: hsl(219, 85%, 26%);
+  }
+  .hover:hover{
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+  }
+.fontSize{
+    font-size:16px ;
+}
